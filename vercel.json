@@ -1,0 +1,16 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "nodeVersion": "18.x",
+  "env": {
+    "NEXT_PUBLIC_API_URL": "https://api.yourdomain.com"
+  },
+  "regions": ["nrt1", "kix1"],
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  }
+}

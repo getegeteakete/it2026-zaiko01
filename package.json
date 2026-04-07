@@ -1,0 +1,25 @@
+{
+  "name": "ai-invoice-system",
+  "version": "1.0.0",
+  "description": "自律型AIエージェント × インボイス統合決済プラットフォーム",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "engines": {
+    "node": "18.17.0 || >=20.0.0"
+  }
+}
